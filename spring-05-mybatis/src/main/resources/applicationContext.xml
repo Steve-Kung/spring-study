@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--&lt;!&ndash; 开启注解的支持 &ndash;&gt;-->
+    <!--<context:annotation-config/>-->
+    <!--&lt;!&ndash;开启aop注解支持&ndash;&gt;-->
+    <!--<aop:aspectj-autoproxy/>-->
+
+    <!--<bean id="" class=""/>-->
+    <!--<aop:config>-->
+        <!--<aop:aspect>-->
+            <!--<aop:pointcut id="point" expression=""/>-->
+            <!--<aop:before method="" pointcut-ref="point"/>-->
+            <!--<aop:after method="" pointcut-ref="point"/>-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
+
+    <import resource="spring-dao.xml"/>
+    <!--<import resource="spring-mvc.xml"/>-->
+
+    <bean id="userMapperImpl" class="mapper.UserMapperImpl">
+        <property name="sqlSessionTemplate" ref="sqlSessionTemplate"/>
+    </bean>
+
+
+</beans>

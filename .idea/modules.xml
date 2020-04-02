@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-01-ioc/spring-01-ioc.iml" filepath="$PROJECT_DIR$/spring-01-ioc/spring-01-ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-02-hello-spring/spring-02-hello-spring.iml" filepath="$PROJECT_DIR$/spring-02-hello-spring/spring-02-hello-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-03-di/spring-03-di.iml" filepath="$PROJECT_DIR$/spring-03-di/spring-03-di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-04-aop/spring-04-aop.iml" filepath="$PROJECT_DIR$/spring-04-aop/spring-04-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-05-mybatis/spring-05-mybatis.iml" filepath="$PROJECT_DIR$/spring-05-mybatis/spring-05-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-06-mybatis-transaction-annotion/spring-06-mybatis-transaction-annotion.iml" filepath="$PROJECT_DIR$/spring-06-mybatis-transaction-annotion/spring-06-mybatis-transaction-annotion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-study.iml" filepath="$PROJECT_DIR$/spring-study.iml" />
+    </modules>
+  </component>
+</project>
